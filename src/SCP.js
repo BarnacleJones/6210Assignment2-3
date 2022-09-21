@@ -1,5 +1,4 @@
 //import the needed webhooks
-
 import {useEffect, useState} from 'react';
 
 function SCP()
@@ -49,19 +48,20 @@ function SCP()
     );
 
     return(
-        <div className='container'>
-            {
+        <div className='container-fluid'>
+            {                
                 state && state.map(
                     scp => 
                     <div className="scpSubjects" id={scp.Item} key="{scp.Item}"> 
                                 <div className="card-body">                                  
                                     <h2 >Item: {scp.Item}</h2>
                                     <h3>Class: {scp.Class}</h3>
-                                    <p>Description: {scp.Description}</p>
-                                    <p>Containment: {scp.Containment}</p>
-                                    <img src={"/SCP_Images/" + scp.Item + ".jpg"} alt="scp img" />
+                                    <p><b>Description:</b> {scp.Description}</p>
+                                    <p><b>Containment:</b> {scp.Containment}</p>
+                                    <img src={"./SCP_Images/" + scp.Item + ".jpg"} alt="scp img" />
+                                    <br></br>
+                                    <a href="#navbar">Back to top</a>
                                 </div>
-
                             </div>                 
                 )
             }

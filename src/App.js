@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <h1>Welcome to the SCP foundation.</h1>
       <SCP />
     </div>
   );

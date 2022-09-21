@@ -2,16 +2,22 @@
   text-align: center;
 }
 body{
-  background-color: #3f7989;
+  background-color: #000000d2;
 }
 
 .scpSubjects{
-  padding-top: 15%;
+  padding-top: 2%;
 }
 nav{
   background-color: #788289;
 }
 .scpSubjects{
+  background-color: #2D2D2D;
+}
+
+.card-body{
+  border: 1px solid #000000d2;
+  border-radius: 10px;
   background-color: #788289;
 }
 
@@ -40,7 +46,6 @@ ul {
 
 }
 
-
 img{
   width: 25%;
 }
@@ -50,3 +55,11 @@ img{
   text-decoration: none;
 }
 
+h1{
+  color: white;
+}
+@media only screen and (max-width: 500px) {
+  #logo {
+    display: none;
+  }
+}

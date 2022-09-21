@@ -2,7 +2,7 @@ import './App.css';
 function Nav()
 {
     return(
-        <nav className="navbar navbar-dark fixed-top">        
+        <nav className="navbar navbar-dark" id="navbar">        
             <h2 className="navbar-brand"><img src="./SCP_Images/scp_logo.gif" alt="SCP logo" id='logo' /></h2> 
             <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -29,10 +29,6 @@ function Nav()
                     <li className="nav-item "><a href="#SCP-5807">SCP-5807</a></li>
                     <li className="nav-item "><a href="#SCP-5808">SCP-5808</a></li>
                     <li className="nav-item "><a href="#SCP-5809">SCP-5809</a></li>
-                    {/* <li className="nav-item">SCP-003</li>
-                    <li className="nav-item">SCP-004</li>
-                    <li className="nav-item">SCP-005</li>
-                    <li className="nav-item">SCP-006</li> */}
                 </ul> 
             </div>  
           
